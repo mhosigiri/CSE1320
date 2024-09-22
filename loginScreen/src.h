@@ -28,7 +28,7 @@ void trim(char *str)
     }
 }
 
-int main()
+void passkey()
 {
     char ch;
     char pass[MAX_PASS];
@@ -80,5 +80,5 @@ int main()
         printf("Lengths - Input: %lu, Saved: %lu\n", strlen(pass), strlen(saved_pass));
     }
 
-    return 0;
+    return;
 }
